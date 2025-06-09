@@ -26,6 +26,7 @@ Một database thiết kế tốt ngay từ đầu sẽ giúp hệ thống:
 ## 3. Khai thác & sử dụng Database tối ưu
 ## 4. Nâng cấp – Khác biệt so với thiết kế cũ
 ## 5. Triển khai
+![AIO2025 drawio](https://github.com/user-attachments/assets/fef3b366-52d9-4727-924f-74c2b5bc8f6c)
 
 ## 6. Kết luận
 
