@@ -1,5 +1,9 @@
 # AIO25.M1W01 - Blog
 
+# From Traditional Database to “AI-ready” Platform
+*(A guide to building, selecting a platform, and important notes)*
+
+---
 ## 1. Why build an **AI-ready database?**
 
 - **AI requires “correct – sufficient – easily accessible” data.**
