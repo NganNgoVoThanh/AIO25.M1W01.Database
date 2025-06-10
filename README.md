@@ -1,4 +1,4 @@
-# AIO25.M1W01 - Blog
+AIO25.M1W01 - Blog
 
 # From Traditional Database to “AI-ready” Platform
 *(A guide to building, selecting a platform, and important notes)*
@@ -22,6 +22,8 @@
 
 ## 2. Differences between **traditional databases** and **AI-ready databases**
 
+
+
 | Aspect                  | Traditional Database                       | AI-ready Database (Lakehouse/Fabric) |
 |-------------------------|---------------------------------------------|---------------------------------------|
 | **Storage format**      | Relational tables, schema-on-write         | Files/Delta + object storage, schema-on-read |
@@ -33,9 +35,12 @@
 
 *(Based on real-world experience and modern lakehouse recommendations.)*
 
+![image](https://github.com/user-attachments/assets/8e7a5d5a-395e-4bfc-875f-9b7c573e6546)
+
 ---
 
 ## 3. Recommended platforms (prioritizing Fabric/OneLake)
+
 
 | Platform                       | Key Highlights                                             | When to Use |
 |--------------------------------|------------------------------------------------------------|-------------|
@@ -73,8 +78,10 @@
    - Gradually migrate legacy data to the lakehouse over phases.
 
 ---
+## 5. End-to-End Data Science Workflow in Microsoft Fabric
+![image](https://github.com/user-attachments/assets/de8c99ca-edf8-4911-a19b-ccdcd51df811)
 
-## 5. Key considerations
+## 6. Key considerations
 
 - **Data governance & trust:** Ensure *complete metadata, clear lineage, and strict security policies*; otherwise, AI outputs may be “hallucinated.”
 - **“Garbage in, garbage out”:** Prioritize data cleansing and standardization before worrying about models.
